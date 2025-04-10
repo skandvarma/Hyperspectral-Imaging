@@ -1,0 +1,33 @@
+{
+    "timestamp": "2024-12-06T05:33:14.952981",
+    "model_summary": {
+        "total_params": 118535333,
+        "input_shape": [
+            224,
+            224,
+            3
+        ],
+        "num_classes": 5
+    },
+    "metrics": {
+        "metadata": [
+            {
+                "file": "/home/labuser/Hyperspectral_imaging/hyperspectral_data/REFLECTANCE_1971.hdr",
+                "day": 0,
+                "features": {
+                    "disease_severity": 0.8719649463891983,
+                    "affected_area_ratio": 0.790557861328125,
+                    "lesion_count": 3,
+                    "avg_lesion_size": 731.3333333333334,
+                    "pattern_uniformity": 0.28174662590026855
+                },
+                "array_shapes": {
+                    "original_ndvi": [
+                        512,
+                        512
+                    ],
+                    "original_green_nir": [
+                        512,
+                        512
+                    ],
+                    "final_image": 
